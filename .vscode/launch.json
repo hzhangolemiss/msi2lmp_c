@@ -1,0 +1,22 @@
+{
+    "version": "3.9.10",
+    "configurations": [
+        {
+            "name": "Launch Target",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/msi2lmp",
+            "args": [ "arg/polyurea/polyurea_1b_1c_01",
+                "-p","1",
+                "-i",
+                "-n",
+                "-bo",
+                "-c","2",
+                "-f","arg/pcff_mod" ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false
+        }
+    ]
+}
