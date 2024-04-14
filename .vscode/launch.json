@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/msi2lmp",
-            "args": [ "arg/polyurea/polyurea_1b_1c_01",
+            "args": [ "arg/HDPE/build_HDPE_80_10c_0",
                 "-p","1",
                 "-i",
                 "-n",
